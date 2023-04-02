@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Resistor Code Determiner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> ## Description
+> Ever seen a **resistor** being used in electronic **circuits** to *resist* the flow of electric current, and the colours printed on them in a specific pattern? Ever wondered what resistance, a random given resistor possesses?
+>
+> If yes, then you're in the right place. This tool, **Resistor Code Determiner** helps you to find out the resistance based on its colour codes. Just type the colours you see in your resistor to begin and Voila! You can find its resistance.
 
-## Available Scripts
+> ## Features
+> - Convenient Usage of Program.
+> - Viewable and executable on all devices.
+> - Can help you find a suitable resistor if you have a electronic project on deadline.
+> - Can help you surprise you partner(s) or friend(s) during a project.
 
-In the project directory, you can run:
+> ## Download
+> Follow the steps below to download and run the program:
+>
+> 1. Click on the green **Code** button.
+> 2. Copy the link provided (**Recommended:** HTTPS).
+> 3. Open you favourite **Command Prompt**.
+> 4. Navigate to the place where you want to download by typing: `cd <your path>` (**Note**: Replace `<your path>` with the path of your folder.)
+> 5. Type `git clone <repository URL>` to clone the repository (**Note**: Replace `<repository URL>` with the link you have copied in Step 2).
+> 6. After the cloning process, navigate to the location of your download using the `cd` method (Step 4) and type `npm start`. After the prompt loads the file, it will be visible in your web browser in **localhost** and port **3000**.
+>
+> Happy Tinkering!
+>
+> **Note:** This download process requires Node.js and Git installed in order to compile React.js and download respectively. If you have both installed in your computer, then you're good to go.
+>
+> If not, do the following steps.
+>
+> - Download **Node.js** by going to this [link](https://nodejs.org/en/download).
+> - Download **Git** by going to this [link](https://git-scm.com/downloads).
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> _________________
+> *Project by:*
+> ## Aditya VN Kadiyala
+> <aditya2010.kadiyala@gmail.com>

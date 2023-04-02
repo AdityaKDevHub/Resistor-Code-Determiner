@@ -1,0 +1,322 @@
+/* This is the Media Queries File. To see the root CSS file, go to App.css in the current folder */
+
+@media (max-width: 820px) and (min-width: 700px) {
+  .button1_a {
+    position: absolute;
+    top: 280px;
+    left: 120px;
+  }
+
+  #band2_a {
+    position: absolute;
+    top: 220px;
+    left: 320px;
+  }
+
+  .button2_a {
+    position: absolute;
+    top: 280px;
+    left: 340px;
+  }
+
+  #band3_a {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+  }
+
+  .button3_a {
+    position: absolute;
+    top:  460px;
+    left: 120px;
+  }
+
+  #band4_a {
+    position: absolute;
+    top: 400px;
+    left: 320px;
+  }
+
+  .button4_a {
+    position: absolute;
+    top:  460px;
+    left: 340px;
+  }
+
+  /* Resistor 1 */
+
+  .res1body {
+    top: 710px;
+    width: 60%;
+    height: 7.5%;
+  }
+
+  .res1end1, .res1end2 {
+    top: 640px;
+    height: 15%;
+    width: 7%;
+  }
+
+  .res1end1 {
+    left: 130px;
+  }
+
+  #res1band1, #res1band2, #res1band3, #res1band4 {
+    height: 7.5%;
+    top: 710px;
+  }
+
+  .res1wire1 {
+    left: 100px;
+  }
+
+  .res1wire1, .res1wire2 {
+    height: 1%;
+    top: 755px;
+  }
+
+  .res1wire1 {
+    left: 95px;
+  }
+
+  .res1wire2 {
+    right: 95px;
+  }
+
+  .resfind {
+    top: 540px;
+  }
+
+  .restxt {
+    top: 900px;
+  }
+
+  #res {
+    top: 900px;
+    right: 250px;
+  }
+
+  #restor {
+    top: 900px;
+    right: 100px;
+  }
+
+  .band1txt {
+    top: 680px;
+    left: 180px;
+    width: 8%;
+  }
+
+  .band2txt {
+    top: 650px;
+    left: 230px;
+    width: 8%;
+  }
+
+  .band2txt2 {
+    top: 670px;
+    left: 245px;
+  }
+
+  .band3txt {
+    top: 620px;
+    left: 260px;
+  }
+
+  .band3txt2 {
+    top: 630px;
+    left: 280px;
+  }
+
+  .band4txt {
+    top: 680px;
+    right: 190px;
+  }
+}
+
+@media (max-width: 415px) and (min-width: 360px) {
+  .title2 {
+    top: 100px;
+  }
+
+  #band1_a {
+    top: 250px;
+    left: 10px;
+  }
+
+  .button1_a {
+    position: absolute;
+    top: 245px;
+    left: 220px;
+  }
+
+  #band2_a {
+    top: 320px;
+    left: 10px;
+  }
+
+  .button2_a {
+    position: absolute;
+    top: 315px;
+    left: 220px;
+  }
+
+  #band3_a {
+    top: 390px;
+    left: 10px;
+  }
+
+  .button3_a {
+    position: absolute;
+    top: 385px;
+    left: 220px;
+  }
+
+  #band4_a {
+    top: 460px;
+    left: 10px;
+  }
+
+  .button4_a {
+    position: absolute;
+    top: 455px;
+    left: 220px;
+  }
+
+  .res1body {
+    top: 710px;
+    width: 60%;
+    height: 7.5%;
+    left: 80px;
+  }
+
+  .res1end1, .res1end2 {
+    top: 670px;
+    height: 15%;
+    width: 7%;
+  }
+
+  .res1end1 {
+    left: 60px;
+  }
+
+  .res1end2 {
+    right: 60px;
+  }
+
+  #res1band1, #res1band2, #res1band3, #res1band4 {
+    height: 7.5%;
+    top: 710px;
+  }
+
+  #res1band1 {
+    left: 120px;
+  }
+
+  #res1band2 {
+    left: 140px;
+  }
+
+  #res1band3 {
+    left: 160px;
+  }
+
+  #res1band4 {
+    right: 120px;
+  }
+
+  .res1wire1 {
+    left: 40px;
+  }
+
+  .res1wire2 {
+    right: 40px;
+  }
+
+  .res1wire1, .res1wire2 {
+    height: 1%;
+    top: 730px;
+  }
+
+  .resfind {
+    top: 530px;
+    left: 120px;
+  }
+
+  .restxt {
+    top: 820px;
+    left: 30px;
+    width: 55%;
+  }
+
+  #res {
+    top: 820px;
+    right: 80px;
+  }
+
+  #restor {
+    top: 820px;
+    right: 0px;
+  }
+
+  .band1txt, .band2txt, .band3txt, .band4txt {
+    top: 690px;
+    width: 20%;
+  }
+
+  .band1txt {
+    left: 100px;
+  }
+
+  .band2txt {
+    left: 130px;
+    top: 670px;
+  }
+
+  .band3txt {
+    top: 780px;
+    left: 130px;
+  }
+
+  .band4txt {
+    right: 80px;
+  }
+}
+
+@media (max-width: 1180px) and (min-width: 1024px) {
+  .res1body {
+    right: 120px;
+  }
+
+  .res1end1 {
+    left: 500px;
+  }
+
+  .res1end2 {
+    right: 100px;
+  }
+
+  #res1band1 {
+    left: 560px;
+  }
+
+  #res1band2 {
+    left: 600px;
+  }
+
+  #res1band3 {
+    left: 640px;
+  }
+
+  #res1band4 {
+    right: 170px;
+  }
+
+  .res1wire1 {
+    left: 448px;
+  }
+
+  .res1wire2 {
+    right: 50px;
+  }
+}

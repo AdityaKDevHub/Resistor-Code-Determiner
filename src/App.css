@@ -1,38 +1,355 @@
-.App {
+/* This is the root CSS file. To see Media Queries, go to MQ.css in the current folder */
+
+body {
+  background-color: skyblue;
+  font-family: Tahoma;
+}
+
+* {
+  user-select: none;
+}
+
+.title {
+  position: absolute;
+  width: 99%;
+  color: indianred;
   text-align: center;
+  text-decoration: underline;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title2 {
+  position: absolute;
+  width: 99%;
+  color: darkblue;
+  text-align: center;
+  top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#band1_a {
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  padding: 10px 17px;
+  border-radius: 12px;
+  border: 1px solid skyblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button1_a {
+  display: inline-block;
+  padding: 10px 17px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: darkblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px slateblue;
+
+  position: absolute;
+  top: 215px;
+  left: 320px;
 }
 
-.App-link {
-  color: #61dafb;
+.button1_a:hover {background-color: darkslateblue;}
+
+.button1_a:active {
+  background-color: purple;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#band2_a {
+  position: absolute;
+  top: 280px;
+  left: 100px;
+  padding: 10px 17px;
+  border-radius: 12px;
+  border: 1px solid skyblue;
+}
+
+.button2_a {
+  display: inline-block;
+  padding: 10px 17px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+  position: absolute;
+  top: 275px;
+  left: 320px;
+}
+
+.button2_a:hover {background-color: #3e8e41}
+
+.button2_a:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#band3_a {
+  position: absolute;
+  top: 340px;
+  left: 100px;
+  padding: 10px 17px;
+  border-radius: 12px;
+  border: 1px solid skyblue;
+}
+
+.button3_a {
+  display: inline-block;
+  padding: 10px 17px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+  position: absolute;
+  top: 335px;
+  left: 320px;
+}
+
+.button3_a:hover {background-color: #3e8e41}
+
+.button3_a:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#band4_a {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  padding: 10px 17px;
+  border-radius: 12px;
+  border: 1px solid skyblue;
+}
+
+.button4_a {
+  display: inline-block;
+  padding: 10px 17px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: darkblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px slateblue;
+
+  position: absolute;
+  top: 395px;
+  left: 320px;
+}
+
+.button4_a:hover {background-color: darkslateblue}
+
+.button4_a:active {
+  background-color: purple;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* First Resistor Image */
+
+.res1body {
+  width: 35%;
+  height: 15%;
+  background-color: #E8BEAC;
+
+  position: absolute;
+  top: 280px;
+  right: 150px;
+  border: 1px solid #E8BEAC;
+}
+
+.res1end1 {
+  height: 30%;
+  width: 5%;
+  background-color: #E8BEAC;
+  border-radius: 50%;
+  position: absolute;
+  top: 240px;
+  right: 550px;
+  border: 1px solid #E8BEAC;
+}
+
+.res1end2 {
+  height: 30%;
+  width: 5%;
+  background-color: #E8BEAC;
+  border-radius: 50%;
+  position: absolute;
+  top: 240px;
+  right: 130px;
+  border: 1px solid #E8BEAC;
+}
+
+.res1wire1 {
+  position: absolute;
+  background-color: gray;
+  width: 5%;
+  height: 2%;
+  top: 320px;
+  right: 615px;
+}
+
+.res1wire2 {
+  position: absolute;
+  background-color: gray;
+  width: 5%;
+  height: 2%;
+  top: 320px;
+  right: 68px;
+}
+
+#res1band1 {
+  position: absolute;
+  width: 2%;
+  height: 15.5%;
+  background-color: darkgray;
+  right: 500px;
+  top: 280px;
+}
+
+#res1band2 {
+  position: absolute;
+  width: 2%;
+  height: 15.5%;
+  background-color: darkgray;
+  right: 460px;
+  top: 280px;
+}
+
+#res1band3 {
+  position: absolute;
+  width: 2%;
+  height: 15.5%;
+  background-color: darkgray;
+  right: 420px;
+  top: 280px;
+}
+
+#res1band4 {
+  position: absolute;
+  width: 2%;
+  height: 15.5%;
+  background-color: darkgray;
+  right: 220px;
+  top: 280px;
+}
+
+.band1txt {
+  color: red;
+  right: 480px;
+}
+.band1txt, .band2txt, .band3txt, .band4txt {
+  font-weight: 600;
+  position: absolute;
+  top: 250px;
+}
+
+.band2txt {
+  color: blue;
+  top: 220px;
+  right: 440px;
+}
+
+.band2txt2 {
+  position: absolute;
+  font-weight: 600;
+  color: blue;
+  top: 230px;
+  right: 465px;
+  font-size: 30px;
+}
+
+.band3txt {
+  color: green;
+  top: 190px;
+  right: 390px;
+}
+
+.band3txt2 {
+  position: absolute;
+  font-weight: 600;
+  color: green;
+  top: 200px;
+  right: 415px;
+  font-size: 60px;
+}
+
+.band4txt {
+  right: 200px;
+  color: slateblue;
+}
+
+.resfind {
+  display: inline-block;
+  padding: 10px 17px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+  position: absolute;
+  top: 490px;
+  left: 250px;
+}
+
+.resfind:hover {background-color: #3e8e41}
+
+.resfind:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.restxt {
+  position: absolute;
+  color: red;
+  top: 470px;
+  right: 400px;
+}
+
+#res {
+  user-select: text;
+  position: absolute;
+  top: 470px;
+  right: 280px;
+  color: darkblue;
+}
+
+#restor {
+  user-select: text;
+  position: absolute;
+  top: 470px;
+  right: 150px;
+  color: darkblue;
 }
